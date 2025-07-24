@@ -1,0 +1,27 @@
+.container {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-top: 50px;
+}
+input {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:disabled {
+    cursor: not-allowed;
+    opacity: 0.5;
+}
+.error {
+    color: red;
+    font-weight: bold;
+}
+.win {
+    color: green;
+    font-weight: bold;
+}
